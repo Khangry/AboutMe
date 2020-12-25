@@ -41,6 +41,13 @@ $(document).ready(function() {
         loop: true
     });
 
+    var typed = new Typed(".typing-1", {
+        strings: ["Learn to be a fullstack developer"],
+        typeSpeed: 80,
+        backSpeed: 60,
+        loop: true
+    });
+
     var typed = new Typed(".typing-2", {
         strings: ["Gamer", "Developer", "Blogger", "Designer"],
         typeSpeed: 80,
